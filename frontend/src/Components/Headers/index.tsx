@@ -22,12 +22,12 @@ const Header = () => {
 
   return (
     <div className={styles.grid}>
-      <h3 className={styles.title}>Plaid Quickstart</h3>
+    <h3 className={styles.title}>TrueCFO Plaid Integration Demo</h3>
 
       {!linkSuccess ? (
         <>
           <h4 className={styles.subtitle}>
-            A sample end-to-end integration with Plaid
+            An end-to-end integration with Plaid
           </h4>
           <p className={styles.introPar}>
             The Plaid flow begins when your user wants to connect their bank

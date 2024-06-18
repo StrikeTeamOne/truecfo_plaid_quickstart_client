@@ -100,7 +100,7 @@ app.post('/api/create_link_token', function (request, response, next) {
           // This should correspond to a unique id for the current user.
           client_user_id: 'user-id',
         },
-        client_name: 'Plaid Quickstart',
+        client_name: 'TrueCFO Plaid Integration',
         products: PLAID_PRODUCTS,
         country_codes: PLAID_COUNTRY_CODES,
         language: 'en',
@@ -168,7 +168,7 @@ app.post(
         PAYMENT_ID = paymentId;
 
         const configs = {
-          client_name: 'Plaid Quickstart',
+          client_name: 'TrueCFO Plaid Integration',
           user: {
             // This should correspond to a unique id for the current user.
             // Typically, this will be a user ID number from your application.
